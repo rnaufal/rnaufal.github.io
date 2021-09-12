@@ -1,6 +1,7 @@
 theme: jekyll-theme-hacker
 name: Rafael Naufal's blog
 title: Rafael Naufal's blog
+baseurl: "/blog"
 title_separator: "-"
 description: Communicating my thoughts on software development
 repository: "rnaufal/rnaufal.github.io"
