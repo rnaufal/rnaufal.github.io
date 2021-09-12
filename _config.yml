@@ -5,3 +5,6 @@ baseurl: "/blog"
 repository: "rnaufal/rnaufal.github.io"
 twitter:
   username: rnaufal
+footer-links:
+  github: rnaufal
+  twitter: rnaufal
