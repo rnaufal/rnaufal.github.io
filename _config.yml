@@ -4,4 +4,4 @@ description: Communicating my thoughts on software development
 baseurl: "/blog"
 repository: "rnaufal/rnaufal.github.io"
 twitter:
-  username: rnaufal
+  username: &rnaufal
