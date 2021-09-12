@@ -1,1 +1,10 @@
 theme: jekyll-theme-hacker
+name: Rafael Naufal's blog
+description: Communicating my thoughts on software development
+baseurl: "/blog"
+repository: "rnaufal/rnaufal.github.io"
+twitter:
+  username: rnaufal
+footer-links:
+  github: rnaufal
+  twitter: rnaufal
