@@ -28,7 +28,7 @@ repository               : "rnaufal/rnaufal.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
+breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
@@ -223,6 +223,10 @@ sass:
 permalink: /:year/:month/:day/:title.html
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+permalinks:
+  category: /categories/:name/
+  tag: /tags/:name/
+
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
@@ -258,7 +262,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -268,7 +271,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-archives
 
 
 # Archives
@@ -287,19 +289,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-
 
 # HTML Compression
 # - https://jch.penibelst.de/
