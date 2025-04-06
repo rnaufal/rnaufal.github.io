@@ -2,8 +2,6 @@
 id: 45
 title: 'Thinking Iterative, but doing Waterfall development'
 date: '2007-06-24T23:19:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/06/24/thinking-iterative-but-doing-waterfall-development/'
 lj_itemid:
     - '51'

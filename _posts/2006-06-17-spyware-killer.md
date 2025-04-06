@@ -2,8 +2,6 @@
 id: 15
 title: 'Spyware killer'
 date: '2006-06-17T13:10:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/06/17/spyware-killer/'
 lj_itemid:
     - '10'

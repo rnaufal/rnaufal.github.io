@@ -2,8 +2,6 @@
 id: 324
 title: 'Configuration classes with Enums'
 date: '2010-09-23T19:18:37-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=324'
 dsq_thread_id:
     - '146123313'

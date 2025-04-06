@@ -2,8 +2,6 @@
 id: 647
 title: '3 Things Every Java Developer Should Stop Doing'
 date: '2018-02-19T21:31:03-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=647'
 categories:
     - code

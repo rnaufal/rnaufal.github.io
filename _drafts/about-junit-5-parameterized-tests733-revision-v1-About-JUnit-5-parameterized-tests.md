@@ -2,7 +2,6 @@
 id: 737
 title: 'About JUnit 5 parameterized tests'
 date: '2022-12-18T19:43:06-03:00'
-author: rnaufal
 layout: revision
 guid: 'https://rafaelnaufal.com/?p=737'
 ---

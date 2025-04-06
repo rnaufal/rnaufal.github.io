@@ -2,8 +2,6 @@
 id: 459
 title: 'Converting a Map to a List in Java 8, Groovy and Ruby'
 date: '2016-07-16T16:12:26-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=459'
 dsq_thread_id:
     - '4993151356'
@@ -107,7 +105,7 @@ Pair{first='b', second='5'}, Pair{first='b', second='6'},
 Pair{first='c', second='7'}]
 ```
 
-The Groovy and Ruby version are very expressive and concise. Note the use of the `<a href="http://docs.groovy-lang.org/latest/html/groovy-jdk/java/lang/Iterable.html#collectMany(groovy.lang.Closure)" rel="noopener" target="_blank">collectMany</a>` method on the Groovy version and the use of the `<a href="http://ruby-doc.org/core-2.3.1/Array.html#method-i-flatten" rel="noopener" target="_blank">flatten</a>` method on the Ruby version to flatten the result list into a single list of pairs.  
-The Java 8 version made use of the `<a href="https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#collect-java.util.function.Supplier-java.util.function.BiConsumer-java.util.function.BiConsumer-" rel="noopener" target="_blank">collect</a>` method of the Stream API, to collect the results in a list of `Pair` instances, each one holding the key and value of each element from the List&lt; String &gt;.
+The Groovy and Ruby version are very expressive and concise. Note the use of the [collectMany](http://docs.groovy-lang.org/latest/html/groovy-jdk/java/lang/Iterable.html#collectMany(groovy.lang.Closure)) method on the Groovy version and the use of the [flatten](http://ruby-doc.org/core-2.3.1/Array.html#method-i-flatten) method on the Ruby version to flatten the result list into a single list of pairs.  
+The Java 8 version made use of the [collect](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#collect-java.util.function.Supplier-java.util.function.BiConsumer-java.util.function.BiConsumer-) method of the Stream API, to collect the results in a list of `Pair` instances, each one holding the key and value of each element from the List&lt; String &gt;.
 
 What do you think about this comparison? Leave your comments here!

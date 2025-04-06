@@ -2,8 +2,6 @@
 id: 11
 title: 'Explorer Destroyer'
 date: '2006-06-08T22:42:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/06/08/explorer-destroyer/'
 lj_itemid:
     - '6'

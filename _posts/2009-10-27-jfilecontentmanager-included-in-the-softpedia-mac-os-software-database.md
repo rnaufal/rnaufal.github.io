@@ -2,8 +2,6 @@
 id: 116
 title: 'JFileContentManager included in the Softpedia Mac OS software database'
 date: '2009-10-27T22:46:26-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=116'
 dsq_thread_id:
     - '104200459'

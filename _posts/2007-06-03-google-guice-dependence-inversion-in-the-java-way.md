@@ -2,8 +2,6 @@
 id: 42
 title: 'Google Guice, dependence Inversion in the Java way'
 date: '2007-06-03T19:02:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/06/03/google-guice-dependence-inversion-in-the-java-way/'
 lj_itemid:
     - '48'

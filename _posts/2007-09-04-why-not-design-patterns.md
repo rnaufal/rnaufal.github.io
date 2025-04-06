@@ -2,8 +2,6 @@
 id: 48
 title: 'Why not design patterns?'
 date: '2007-09-04T23:52:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/09/04/why-not-design-patterns/'
 lj_itemid:
     - '54'

@@ -2,8 +2,6 @@
 id: 63
 title: 'About CSS2 Selectors'
 date: '2008-05-01T00:29:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2008/05/01/about-css2-selectors/'
 lj_itemid:
     - '71'

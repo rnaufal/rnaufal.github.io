@@ -2,8 +2,6 @@
 id: 19
 title: 'Guidelines about threads'
 date: '2006-07-06T14:29:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/07/06/guidelines-about-threads/'
 lj_itemid:
     - '14'

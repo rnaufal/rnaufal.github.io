@@ -2,8 +2,6 @@
 id: 50
 title: 'Reducing the distance between programming and project management'
 date: '2007-10-08T16:24:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/10/08/reducing-the-distance-between-programming-and-project-management/'
 lj_itemid:
     - '56'

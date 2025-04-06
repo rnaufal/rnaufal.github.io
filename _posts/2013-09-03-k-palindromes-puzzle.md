@@ -2,8 +2,6 @@
 id: 415
 title: 'K Palindromes puzzle'
 date: '2013-09-03T12:18:43-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=415'
 dsq_thread_id:
     - '1701712815'

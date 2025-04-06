@@ -2,8 +2,6 @@
 id: 655
 title: 'Streams in JDK 8: The Good, the Bad, and the Ugly'
 date: '2018-02-20T21:30:28-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=655'
 categories:
     - collectors

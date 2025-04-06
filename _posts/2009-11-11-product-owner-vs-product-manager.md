@@ -2,8 +2,6 @@
 id: 136
 title: 'Product Owner vs Product Manager'
 date: '2009-11-11T08:18:21-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=136'
 dsq_thread_id:
     - '102751093'

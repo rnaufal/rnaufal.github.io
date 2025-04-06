@@ -2,8 +2,6 @@
 id: 353
 title: 'Some interesting Maven tips'
 date: '2011-08-24T21:46:52-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=353'
 dsq_thread_id:
     - '395145110'

@@ -2,12 +2,12 @@
 id: 732
 title: 'Writing your own custom Java stream collector'
 date: '2022-12-17T12:29:02-03:00'
-author: rnaufal
+
 layout: revision
 guid: 'https://rafaelnaufal.com/?p=732'
 ---
 
-One of the common operations of the [Collectors](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/Collectors.html) API introduced in [Java 8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html) is the possibility to collect results into a result container like [List](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/List.html), [Set](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Set.html) or [Map](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Map.html). The following example uses the `<a href="https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/IntStream.html#collect(java.util.function.Supplier,java.util.function.ObjIntConsumer,java.util.function.BiConsumer)">collect()</a>` method to generate a `<a href="https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/HashSet.html">HashSet</a>` containing unique numbers:
+One of the common operations of the [Collectors](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/Collectors.html) API introduced in [Java 8](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html) is the possibility to collect results into a result container like [List](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/List.html), [Set](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Set.html) or [Map](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Map.html). The following example uses the [collect()](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/IntStream.html#collect(java.util.function.Supplier,java.util.function.ObjIntConsumer,java.util.function.BiConsumer)) method to generate a [HashSet](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/HashSet.html) containing unique numbers:
 
 <script src="https://gist.github.com/rnaufal/98eb7b5c29f7bae46612158ea3b1c934.js"></script>Now suppose a given string and the need to compute some summaries on it, like the number of uppercase, lowercase, invalid chars and how many digits are present on that string.
 
@@ -17,7 +17,7 @@ Applying a reduce operation on each needed summary operation would result in mor
 
 <script src="https://gist.github.com/rnaufal/69202d997e61dea7fead4d23a1ad299c.js"></script>Despite the solution above, there is another one: writing your own custom stream collector. This custom collector can compute the number of uppercase, lowercase, invalid chars and how many digits are present on the given string, in a single pass through the data. It is possible to make it run in `parallel` with the [Streams](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/Stream.html) API as well.
 
-The custom stream collector shown here uses the `<a href="https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/String.html#chars()">chars()</a>` method of the [String](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/String.html) class which returns an [IntStream](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/IntStream.html). The `IntStream` class contains a `collect()` method that computes a mutable reduction on the elements and returns its result in a container class.
+The custom stream collector shown here uses the [chars](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/String.html#chars()) method of the [String](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/String.html) class which returns an [IntStream](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/stream/IntStream.html). The `IntStream` class contains a `collect()` method that computes a mutable reduction on the elements and returns its result in a container class.
 
 The next example shows the container class code. It receives and accumulates each `char` of the String in the `accept()` method, thus categorizing it as a digit, uppercase char, lowercase char or as an invalid char.
 

@@ -2,8 +2,6 @@
 id: 34
 title: 'Checked or Unchecked?'
 date: '2006-12-10T21:42:00-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/12/10/checked-or-unchecked/'
 lj_itemid:
     - '40'

@@ -2,8 +2,6 @@
 id: 10
 title: 'Association or Aggregation?'
 date: '2006-06-07T10:27:00-03:00'
-author: rnaufal
-layout: posts
 guid: 'http://rnaufal.wordpress.com/2006/06/07/association-or-aggregation/'
 lj_itemid:
     - '5'
