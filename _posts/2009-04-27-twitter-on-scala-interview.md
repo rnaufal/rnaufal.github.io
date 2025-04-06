@@ -2,8 +2,6 @@
 id: 71
 title: 'Twitter on Scala Interview'
 date: '2009-04-27T14:05:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2009/04/27/twitter-on-scala-interview/'
 lj_itemid:
     - '80'

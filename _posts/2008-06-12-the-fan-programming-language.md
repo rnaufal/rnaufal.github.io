@@ -2,8 +2,6 @@
 id: 64
 title: 'The Fan programming language'
 date: '2008-06-12T17:35:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2008/06/12/the-fan-programming-language/'
 lj_itemid:
     - '72'

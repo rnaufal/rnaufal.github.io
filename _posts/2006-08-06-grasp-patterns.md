@@ -2,8 +2,6 @@
 id: 246
 title: 'GRASP patterns'
 date: '2006-08-06T14:05:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/08/06/grasp-patterns/'
 lj_itemid:
     - '19'

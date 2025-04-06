@@ -2,8 +2,6 @@
 id: 375
 title: 'Undo svn add operation'
 date: '2012-06-20T14:09:02-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=375'
 dsq_thread_id:
     - '751435668'

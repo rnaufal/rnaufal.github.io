@@ -2,8 +2,6 @@
 id: 16
 title: 'Google increasing its computing power'
 date: '2006-06-20T12:50:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/06/20/google-increasing-its-computing-power/'
 lj_itemid:
     - '11'

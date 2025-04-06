@@ -2,8 +2,6 @@
 id: 61
 title: 'Generating LGPL notices with Python support'
 date: '2008-02-11T00:19:00-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2008/02/11/generating-lgpl-notices-with-python-support/'
 lj_itemid:
     - '69'

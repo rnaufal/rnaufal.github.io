@@ -2,8 +2,6 @@
 id: 554
 title: 'Java 8: Converting Optional Collection to the Streams API'
 date: '2017-10-15T19:42:09-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=554'
 dsq_thread_id:
     - '6217518496'
@@ -67,7 +65,7 @@ List<person> people = ...
 </person>
 ```
 
-How can we do that using the Streams API, since the `getCars()` method return an `<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html">Optional</a>`?
+How can we do that using the Streams API, since the `getCars()` method return an [Optional](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)?
 
 One possibility is to filter people’s list by Mark’s name, filter the `Optional` if it is present or not and map its wrapped value (our cars list):
 
@@ -120,7 +118,7 @@ Collection<car> allPeopleCars = people
 </car>
 ```
 
-**P.S.** In Java 9, the `<a href="http://download.java.net/java/jdk9/docs/api/java/util/Optional.html#stream--">stream()</a>` method was added to the `<a href="http://download.java.net/java/jdk9/docs/api/java/util/Optional.html">Optional</a>` API, so we can rewrite the above stream pipeline into the following one:
+**P.S.** In Java 9, the [stream()](http://download.java.net/java/jdk9/docs/api/java/util/Optional.html#stream--) method was added to the [Optional](http://download.java.net/java/jdk9/docs/api/java/util/Optional.html) API, so we can rewrite the above stream pipeline into the following one:
 
 ```
 

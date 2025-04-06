@@ -2,8 +2,6 @@
 id: 361
 title: 'When to use TestNG or JUnit'
 date: '2011-09-02T18:50:10-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=361'
 dsq_thread_id:
     - '403341604'

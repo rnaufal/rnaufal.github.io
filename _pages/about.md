@@ -2,7 +2,6 @@
 id: 74
 title: 'About me'
 date: '2009-06-02T13:49:50-03:00'
-author: rnaufal
 layout: single
 guid: 'http://rafaelnaufal.com/blog/?page_id=74'
 dsq_thread_id:

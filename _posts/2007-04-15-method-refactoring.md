@@ -2,8 +2,6 @@
 id: 39
 title: 'Method Refactoring'
 date: '2007-04-15T22:52:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/04/15/method-refactoring/'
 lj_itemid:
     - '45'

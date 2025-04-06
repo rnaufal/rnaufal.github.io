@@ -2,8 +2,6 @@
 id: 59
 title: 'Effective Java Programming with Joshua Bloch'
 date: '2008-01-13T18:07:00-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2008/01/13/effective-java-programming-with-joshua-bloch/'
 lj_itemid:
     - '67'

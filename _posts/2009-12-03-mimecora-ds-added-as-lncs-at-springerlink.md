@@ -2,8 +2,6 @@
 id: 197
 title: 'My paper MIMECORA-DS added as LNCS at SpringerLink'
 date: '2009-12-03T17:59:32-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=197'
 dsq_thread_id:
     - '76181469'

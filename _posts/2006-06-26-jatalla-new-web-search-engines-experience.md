@@ -2,8 +2,6 @@
 id: 17
 title: 'Jatalla &#8211; New web search engine&#8217;s experience'
 date: '2006-06-26T20:42:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/06/26/jatalla-new-web-search-engines-experience/'
 lj_itemid:
     - '12'

@@ -2,8 +2,6 @@
 id: 22
 title: 'Thread Groups'
 date: '2006-07-18T20:15:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/07/18/thread-groups/'
 lj_itemid:
     - '17'

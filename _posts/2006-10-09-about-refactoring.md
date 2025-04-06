@@ -2,8 +2,6 @@
 id: 29
 title: 'About Refactoring'
 date: '2006-10-09T00:11:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/10/09/about-refactoring/'
 lj_itemid:
     - '35'

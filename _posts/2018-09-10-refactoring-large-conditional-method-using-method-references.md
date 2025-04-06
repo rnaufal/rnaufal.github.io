@@ -2,8 +2,6 @@
 id: 673
 title: 'Refactoring large conditional method using method references'
 date: '2018-09-10T17:51:03-03:00'
-author: rnaufal
-layout: single
 guid: 'https://rafaelnaufal.com/blog/?p=673'
 categories:
     - code

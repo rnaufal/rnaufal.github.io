@@ -2,7 +2,6 @@
 id: 749
 title: 'About using Test Doubles in tests'
 date: '2024-03-08T17:14:07-03:00'
-author: rnaufal
 layout: revision
 guid: 'https://rafaelnaufal.com/?p=749'
 ---

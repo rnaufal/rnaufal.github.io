@@ -2,8 +2,6 @@
 id: 60
 title: 'Annoucing JFileContentManager 1.2!'
 date: '2008-01-26T23:30:00-02:00'
-author: rnaufal
-layout: posts
 guid: 'http://rnaufal.wordpress.com/2008/01/26/annoucing-jfilecontentmanager-1-2/'
 lj_itemid:
     - '68'

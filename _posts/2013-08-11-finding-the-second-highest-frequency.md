@@ -2,8 +2,6 @@
 id: 386
 title: 'Finding the second highest frequency'
 date: '2013-08-11T23:11:07-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=386'
 dsq_thread_id:
     - '1598302814'

@@ -2,7 +2,6 @@
 id: 740
 title: 'About using Test Doubles in tests'
 date: '2024-03-08T15:52:10-03:00'
-author: rnaufal
 guid: 'https://rafaelnaufal.com/?p=740'
 categories:
     - java

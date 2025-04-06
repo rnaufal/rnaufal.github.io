@@ -2,8 +2,6 @@
 id: 32
 title: 'Open sourcing Java with GPL license?'
 date: '2006-11-12T15:13:00-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/11/12/open-sourcing-java-with-gpl-license/'
 lj_itemid:
     - '38'

@@ -2,8 +2,6 @@
 id: 542
 title: '35 programming habits that make your code smell'
 date: '2017-08-20T13:04:39-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=542'
 dsq_thread_id:
     - '6095661721'

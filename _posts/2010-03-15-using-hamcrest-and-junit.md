@@ -2,8 +2,6 @@
 id: 218
 title: 'Using Hamcrest and JUnit'
 date: '2010-03-15T23:10:52-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=218'
 dsq_thread_id:
     - '76180944'

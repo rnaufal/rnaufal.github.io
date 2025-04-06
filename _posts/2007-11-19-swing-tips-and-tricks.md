@@ -2,8 +2,6 @@
 id: 54
 title: 'Swing tips and tricks'
 date: '2007-11-19T23:16:00-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/11/19/swing-tips-and-tricks/'
 lj_itemid:
     - '62'

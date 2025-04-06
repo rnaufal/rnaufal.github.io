@@ -2,8 +2,6 @@
 id: 72
 title: '&#8220;Salute #{@Ruby}!&#8221;'
 date: '2009-05-21T22:15:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2009/05/21/salute-ruby/'
 lj_itemid:
     - '81'

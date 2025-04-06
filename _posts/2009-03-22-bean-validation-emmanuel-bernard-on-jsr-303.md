@@ -2,8 +2,6 @@
 id: 69
 title: 'Bean Validation – Emmanuel Bernard on JSR 303'
 date: '2009-03-22T14:57:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2009/03/22/bean-validation-%e2%80%93-emmanuel-bernard-on-jsr-303/'
 lj_itemid:
     - '78'

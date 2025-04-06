@@ -2,8 +2,6 @@
 id: 27
 title: 'SRP Example &#8211; Bowling Game'
 date: '2006-09-18T19:52:00-03:00'
-author: rnaufal
-layout: posts
 guid: 'http://rnaufal.wordpress.com/2006/09/18/srp-example-bowling-game/'
 lj_itemid:
     - '33'

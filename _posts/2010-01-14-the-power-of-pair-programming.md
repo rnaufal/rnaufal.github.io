@@ -2,8 +2,6 @@
 id: 206
 title: 'The power of pair programming'
 date: '2010-01-14T23:08:03-02:00'
-author: rnaufal
-layout: single
 guid: 'http://rafaelnaufal.com/blog/?p=206'
 dsq_thread_id:
     - '76181486'

@@ -2,8 +2,6 @@
 id: 9
 title: 'Blu-ray &#8211; The next-generation optical disc format'
 date: '2006-06-06T23:23:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/06/06/blu-ray-the-next-generation-optical-disc-format/'
 lj_itemid:
     - '4'

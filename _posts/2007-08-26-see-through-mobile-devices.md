@@ -2,8 +2,6 @@
 id: 47
 title: 'See-Through Mobile Devices'
 date: '2007-08-26T23:23:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2007/08/26/see-through-mobile-devices/'
 lj_itemid:
     - '53'

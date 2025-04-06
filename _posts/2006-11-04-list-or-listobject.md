@@ -2,8 +2,6 @@
 id: 31
 title: 'List<?> or List<Object> ?'
 date: '2006-11-04T00:03:00-03:00'
-author: rnaufal
-layout: single
 guid: 'http://rnaufal.wordpress.com/2006/11/04/list-or-listobject/'
 lj_itemid:
     - '37'

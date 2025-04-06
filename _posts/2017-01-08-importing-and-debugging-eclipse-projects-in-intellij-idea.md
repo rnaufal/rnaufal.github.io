@@ -2,8 +2,6 @@
 id: 515
 title: 'Importing and debugging Eclipse projects in IntelliJ IDEA'
 date: '2017-01-08T20:03:45-02:00'
-author: rnaufal
-layout: posts
 guid: 'http://rafaelnaufal.com/blog/?p=515'
 dsq_thread_id:
     - '5446739941'
