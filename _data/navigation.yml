@@ -1,0 +1,16 @@
+main:
+  - title: "Home"
+    url: /
+    tooltip: "Home"
+  - title: "About"
+    url: /about/
+    tooltip: "About"
+  - title: "Posts"
+    url: /year-archive/
+    tooltip: "Posts"
+  - title: "Categories"
+    url: /categories/
+    tooltip: "Categories"
+  - title: "Tags"
+    url: /tags/
+    tooltip: "Tags"
