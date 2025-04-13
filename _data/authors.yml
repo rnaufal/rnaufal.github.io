@@ -1,0 +1,11 @@
+Rafael Naufal:
+  name        : "Rafael Naufal"
+  bio         : "Software Engineer"
+  avatar      : ""
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://rafaelnaufal.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rnaufal"
