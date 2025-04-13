@@ -8,7 +8,7 @@ dsq_thread_id:
 permalink: /about/
 ---
 
-My name is Rafael Naufal and I’m a brazilian software enginner. I was graduated in Computer Science at [PUC-SP](https://www.pucsp.br/cce/) and I concluded a post graduation course on Software Engineering at [ITA](https://www.ita.br). This blog is for share software development ideas in general. It’s also intended to motivate the learning of some programming languages such as [Python](https://www.python.org), [Ruby](https://www.ruby-lang.org), [Scala](https://www.scala-lang.org) and programming paradigms as well.
+My name is Rafael Naufal and I’m a brazilian software engineer. I was graduated in Computer Science at [PUC-SP](https://www.pucsp.br/cce/) and I concluded a post graduation course on Software Engineering at [ITA](https://www.ita.br). This blog is for share software development ideas in general. It’s also intended to motivate the learning of some programming languages such as [Python](https://www.python.org), [Ruby](https://www.ruby-lang.org), [Scala](https://www.scala-lang.org) and programming paradigms as well.
 
 My interests in software development are:
 
