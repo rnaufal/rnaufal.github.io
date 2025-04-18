@@ -109,7 +109,7 @@ social:
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : "G-03EBM9V0W3"
     anonymize_ip         : true
 
 
