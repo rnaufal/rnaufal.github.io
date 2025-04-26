@@ -35,7 +35,7 @@ Although [Java 9](http://www.oracle.com/technetwork/java/javase/downloads/index.
 
 Suppose some person could have zero, one or more cars and it is represented by the `Person` class below (some code omitted).
 
-```
+```java
 public class Person {
 
     private String name;
@@ -44,7 +44,7 @@ public class Person {
     .
     .
 
-    public Optional<collection>> getCars() {
+    public Optional<Collection<Car>> getCars() {
         return Optional.ofNullable(cars);
     }
 
@@ -52,26 +52,23 @@ public class Person {
     .
     .
 
-}</collection>
+}
 ```
 
 Now we create a list of people and we want to get Mark’s cars.
 
-```
-
+```java
 Person mark = new Person("Mark");
 
-List<person> people = ...
-</person>
+List<Person> people = ...
 ```
 
 How can we do that using the Streams API, since the `getCars()` method return an [Optional](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)?
 
 One possibility is to filter people’s list by Mark’s name, filter the `Optional` if it is present or not and map its wrapped value (our cars list):
 
-```
-
-Collection<car> markCars = people
+```java
+Collection<Car> markCars = people
                 .stream()
                 .filter(person -> "Mark".equals(person.getName()))
                 .findFirst()
@@ -79,56 +76,47 @@ Collection<car> markCars = people
                 .filter(Optional::isPresent)
                 .map(Optional::get)
                 .orElse(Collections.emptyList());
-</car>
 ```
 
 At this moment we reached the reason of this blog post. And how can we get all people’s cars? The idea here is to use the `flatMap()` operation unwrapping the `Optional` to the collection’s stream when it is present or getting an empty stream when it isn’t present:
 
-```
-
-Collection<car> allPeopleCars = people
+```java
+Collection<Car> allPeopleCars = people
                 .stream()
                 .map(Person::getCars)
                 .flatMap(mayHaveCars -> mayHaveCars.isPresent() ? mayHaveCars.get().stream() : Stream.empty())
                 .collect(Collectors.toList());
-</car>
 ```
 
 We can do better and replace the above solution to be more functional using [method references](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html):
 
-```
-
-Collection<car> allPeopleCars = people
+```java
+Collection<Car> allPeopleCars = people
                 .stream()
                 .map(Person::getCars)
                 .flatMap(mayHaveCars -> mayHaveCars.map(Collection::stream).orElse(Stream.empty()))
                 .collect(Collectors.toList());
-</car>
 ```
 
 If you use [IntelliJ IDEA](https://www.jetbrains.com/idea/) as your favorite IDE, it has an inspection that helps replacing `Optional.isPresent()` with a functional expression:
 
-```
-
-Collection<car> allPeopleCars = people
+```java
+Collection<Car> allPeopleCars = people
                 .stream()
                 .map(Person::getCars)
                 .flatMap(mayHaveCars -> mayHaveCars.map(Collection::stream).orElseGet(Stream::empty))
                 .collect(Collectors.toList());
-</car>
 ```
 
 **P.S.** In Java 9, the [stream()](http://download.java.net/java/jdk9/docs/api/java/util/Optional.html#stream--) method was added to the [Optional](http://download.java.net/java/jdk9/docs/api/java/util/Optional.html) API, so we can rewrite the above stream pipeline into the following one:
 
-```
-
-Collection<car> allPeopleCars = people
+```java
+Collection<Car> allPeopleCars = people
                 .stream()
                 .map(Person::getCars)
                 .flatMap(Optional::stream)
                 .flatMap(Collection::stream)
                 .collect(Collectors.toList());
-</car>
 ```
 
 In case you are interested, this [post](https://blog.jetbrains.com/idea/2016/07/java-8-top-tips/) on the IntelliJ IDEA blog has some good tips when working with Java 8.

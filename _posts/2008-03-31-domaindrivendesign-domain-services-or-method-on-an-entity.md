@@ -31,52 +31,46 @@ So, <span style="color:rgb(0,104,28);">nickgieschen</span> suggested the followi
 
 1\. Everything in the domain:
 
-```
-<span class="gutter"> 1:</span><span class="syntax10">class</span> Order
-<span class="gutter"> 2:</span><span class="syntax18">{</span>
-<span class="gutter"> 3:</span>    IOrderShippedNotificationPolicy _notificationPolicy
-<span class="gutter"> 4:</span>    IOrderRepository _orderRepository
-<span class="gutterH"> 5:</span>
-<span class="gutter"> 6:</span>    <span class="syntax10">void</span> <span class="syntax6">Ship</span>()
-<span class="gutter"> 7:</span>    <span class="syntax18">{</span>
-<span class="gutter"> 8:</span>        <span class="syntax8">if</span> (<span class="syntax18">!</span><span class="syntax6">CheckIfOkayToShip</span>()) <span class="syntax18">{</span>
-<span class="gutter"> 9:</span>            <span class="syntax8">throw</span> <span class="syntax8">new</span> <span class="syntax6">InvalidObjectException</span>();
-<span class="gutterH">10:</span>        <span class="syntax18">}</span>
-<span class="gutter">11:</span>        <span class="syntax6">UpdateQuantity</span>();
-<span class="gutter">12:</span>        _orderRepository.<span class="syntax6">Add</span>(<span class="syntax14">this</span>);
-<span class="gutter">13:</span>        _notificationPolicy.<span class="syntax6">Notify</span>(<span class="syntax14">this</span>);
-<span class="gutter">14:</span>    <span class="syntax18">}</span>
-<span class="gutterH">15:</span><span class="syntax18">}</span>
-<span class="gutter">16:</span>
-<span class="gutter">17:</span><span class="syntax10">class</span> OrderShippedNotifyByEmailPolicy : INotificationPolicy
-<span class="gutter">18:</span><span class="syntax18">{</span>
-<span class="gutter">19:</span>    <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2">The</span><span class="syntax2"> </span><span class="syntax2">object</span><span class="syntax2"> </span><span class="syntax2">that</span><span class="syntax2"> </span><span class="syntax2">gets</span><span class="syntax2"> </span><span class="syntax2">injected</span><span class="syntax2"> </span><span class="syntax2">is</span><span class="syntax2"> </span><span class="syntax2">implemented</span>
-<span class="gutterH">20:</span>    <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2">in</span><span class="syntax2"> </span><span class="syntax2">the</span><span class="syntax2"> </span><span class="syntax2">infrastructure</span><span class="syntax2"> </span><span class="syntax2">layer</span>
-<span class="gutter">21:</span>    IEmailGateway _emailGateway
-<span class="gutter">22:</span>    
-<span class="gutter">23:</span>    <span class="syntax10">void</span> <span class="syntax6">Send</span>(Order <span class="syntax14">this</span>)
-<span class="gutter">24:</span>    <span class="syntax18">{</span>
-<span class="gutterH">25:</span>        <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2">Create</span><span class="syntax2"> </span><span class="syntax2">email</span><span class="syntax2"> </span><span class="syntax2">here</span>
-<span class="gutter">26:</span>        _emailGateway.<span class="syntax6">Send</span>(email);
-<span class="gutter">27:</span>    <span class="syntax18">}</span>
-<span class="gutter">28:</span><span class="syntax18">}</span>
+```csharp
+class Order {
+    IOrderShippedNotificationPolicy _notificationPolicy
+    IOrderRepository _orderRepository
+ 
+    void Ship() {
+        if (!CheckIfOkayToShip()) {
+            throw new InvalidObjectException();
+        }
+        UpdateQuantity();
+        _orderRepository.Add(this);
+        _notificationPolicy.Notify(this);
+    }
+}
+        
+class OrderShippedNotifyByEmailPolicy : INotificationPolicy {
+    // The object that gets injected is implemented
+    // in the infrastructure layer
+    IEmailGateway _emailGateway
+
+    void Send(Order this) {
+        // Create email here
+        _emailGateway.Send(email);
+    }
+}
 ```
 
 2\. Or have an application service coordinate:
 
-```
-<span class="gutter">   1:</span><span class="syntax10">class</span> <span class="syntax6">OrderService</span>
-<span class="gutter">   2:</span><span class="syntax18">{</span>
-<span class="gutter">   3:</span>    <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2">_orderRepository</span><span class="syntax2"> </span><span class="syntax2">and</span><span class="syntax2"> </span><span class="syntax2">_orderShippedNotificationPolicy</span><span class="syntax2"> </span>
-<span class="gutter">   4:</span>    <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2"> </span><span class="syntax2">are</span><span class="syntax2"> </span><span class="syntax2">injected</span><span class="syntax2"> </span><span class="syntax2">dependencies</span>
-<span class="gutterH">   5:</span>
-<span class="gutter">   6:</span>    <span class="syntax10">void</span> <span class="syntax6">ShipOrder</span>(Order order)
-<span class="gutter">   7:</span>    <span class="syntax18">{</span>
-<span class="gutter">   8:</span>        order.<span class="syntax6">Ship</span>(); <span class="syntax2">//</span><span class="syntax2"> </span><span class="syntax2">in</span><span class="syntax2"> </span><span class="syntax2">this</span><span class="syntax2"> </span><span class="syntax2">case</span><span class="syntax2"> </span><span class="syntax2">it</span><span class="syntax2"> </span><span class="syntax2">only</span><span class="syntax2"> </span><span class="syntax2">validates</span><span class="syntax2"> </span><span class="syntax2">and</span><span class="syntax2"> </span><span class="syntax2">updates</span><span class="syntax2"> </span><span class="syntax2">quantity</span>
-<span class="gutter">   9:</span>        _orderRepository.<span class="syntax6">Save</span>(order);
-<span class="gutterH">  10:</span>        _orderShippedNotificationPolicy.<span class="syntax6">Notify</span>(order);
-<span class="gutter">  11:</span>    <span class="syntax18">}</span>
-<span class="gutter">  12:</span><span class="syntax18">}</span>
+```csharp
+class OrderService {
+  // _orderRepository and _orderShippedNotificationPolicy
+  //  are injected dependencies
+
+  void ShipOrder(Order order) {
+    order.Ship(); // in this case it only validates and updates quantity
+    _orderRepository.Save(order);
+    _orderShippedNotificationPolicy.Notify(order);
+  }
+}
 ```
 
 There’s been a lot of replies also. I highlighted the interesting ones:
@@ -91,5 +85,4 @@ There’s been a lot of replies also. I highlighted the interesting ones:
 
 > **“This could as easily be implemented using AOP.”**
 
-I think DDD advocates are a little bit extremists with some concep  
-ts, like [repository](http://martinfowler.com/eaaCatalog/repository.html). I wouldn’t have designed it on the domain layer, because I want transactional control on the application service layer. I think the domain has to deal with its particularities, not with sending email or adding things to a repository, even being decoupled of theirs implementations (the domain has a reference only to interfaces). So I prefer the latter approach. And you? What are yout thoughts about this design? How would u have designed it? Everything on the domain or have an application service coordinating the activities?
+I think DDD advocates are a little bit extremists with some concepts, like [repository](http://martinfowler.com/eaaCatalog/repository.html). I wouldn’t have designed it on the domain layer, because I want transactional control on the application service layer. I think the domain has to deal with its particularities, not with sending email or adding things to a repository, even being decoupled of theirs implementations (the domain has a reference only to interfaces). So I prefer the latter approach. And you? What are your thoughts about this design? How would u have designed it? Everything on the domain or have an application service coordinating the activities?

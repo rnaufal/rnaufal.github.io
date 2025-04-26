@@ -31,7 +31,7 @@ Here we are for another puzzle from [Javalobby](http://java.dzone.com/articles/t
 
 Here is the solution in Ruby:
 
-```
+```ruby
 v=[1,5,6,7,9,10];sum = v.reduce(:+);count=0;index = (0...v.size).detect { |i| count += v[i]; count * 2 == sum};index == nil ? nil : index + 1
 ```
 

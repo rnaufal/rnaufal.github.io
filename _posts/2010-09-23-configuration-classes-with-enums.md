@@ -19,8 +19,7 @@ As I mentioned on my previous [post](http://rafaelnaufal.com/blog/2010/09/07/sin
 
 Extending the idea, it is interesting to create classes which read configuration values from [Properties](http://download.oracle.com/javase/6/docs/api/java/util/Properties.html) files with Enum classes. Below is an example:
 
-```
-
+```java
 public enum Configuration {
 
     HOST("host"),
@@ -60,8 +59,7 @@ Configuration classes which read values from properties files should be Singleto
 
 The Configuration values can be used this way:
 
-```
-
+```java
 System.out.println(Configuration.HOST.getValue());
 ```
 

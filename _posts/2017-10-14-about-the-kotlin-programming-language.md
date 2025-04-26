@@ -33,8 +33,7 @@ Let’s compare some syntax from Java and Kotlin and see the differences. Suppos
 
 In **Java** we create an `Employee` class, build some employees and use the [Streams](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html) API to group them by their departments:
 
-```
-
+```java
 public class Employee {
 
     private final String name;
@@ -65,18 +64,16 @@ final Employee john = new Employee("John", "Management");
 final Employee smith = new Employee("Smith", "Administrative");
 final Employee paul = new Employee("Paul", "Accounting");
 
-final List<employee> employees = Arrays.asList(mark, john, smith, paul);
+final List<Employee> employees = Arrays.asList(mark, john, smith, paul);
 
-final Map<string list="">> employeesByDepartment = employees
+final Map<String, Employee> employeesByDepartment = employees
                 .stream()
                 .collect(Collectors.groupingBy(Employee::getDepartment));
-</string></employee>
 ```
 
 In **Kotlin** we create a data class `Employee`, build some employees and use the collection built-in `groupBy` method to group them by their departments:
 
-```
-
+```kotlin
 data class Employee(val name: String, val department: String)
 
 val mark = Employee("Mark", "Accounting")
