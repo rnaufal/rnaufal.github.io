@@ -20,8 +20,7 @@ Java 1.5 introduced the concept of [Enum](http://download.oracle.com/javase/tuto
 
 Although Singletons are not encouraged, the best way to create it is using **Enum** types. Here is an example:
 
-```
-
+```java
 public enum Singleton {
     INSTANCE;
 
@@ -33,8 +32,7 @@ public enum Singleton {
 
 And then you call it this way:
 
-```
-
+```java
 Singleton.INSTANCE.sayHello();
 ```
 

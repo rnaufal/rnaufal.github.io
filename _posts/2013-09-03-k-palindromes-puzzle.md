@@ -32,8 +32,7 @@ Here we have the **K Palindromes** puzzle from [Javalobby](http://java.dzone.com
 
 Below is the code in Ruby. Our input string is `omississimo` and it’s a `0 palindrome String`.
 
-```
-
+```ruby
 def isKPalindrome(s, k)
 	chars = s.chars.to_a
 	limit = chars.size - 1

@@ -21,8 +21,7 @@ There are some [unit tests](http://junit.org/) to validate the solution. I’ve 
 
 The first method should take the String list and sort all the String elements in ascending (ASCII) order:
 
-```
-
+```java
     /**
      * This method should take the String List and sort all the String elements in ascending (ASCII) order.
      *
@@ -33,7 +32,7 @@ The first method should take the String list and sort all the String elements in
                 .stream()
                 .sorted()
                 .collect(Collectors.toList());
-    }</string>
+    }
 ```
 
 The other method should take the String list and:
@@ -42,8 +41,7 @@ The other method should take the String list and:
 2. transform (map) the remaining Strings into Integers
 3. sort the Integers in ascending order
 
-```
-        
+```java
     /**
      * This method should take the String List and:
      * <ol>
@@ -62,7 +60,6 @@ The other method should take the String list and:
                 .sorted()
                 .collect(Collectors.toList());
     }
-</integer>
 ```
 
 The last method should take the String list and:
@@ -71,8 +68,7 @@ The last method should take the String list and:
 2. transform (map) the remaining Strings into Integers
 3. sort the Integers in descending order
 
-```
-    
+```java
     /**
      * This method should take the String List and:
      * <ol>
@@ -91,39 +87,35 @@ The last method should take the String list and:
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
     }
-</integer>
 ```
 
 Note that the steps `filter the elements that contains one or more digits` and `transform (map) the remaining Strings into Integers` are identical. So I decided to extract the partial [Stream](http://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html "Stream") into a method with the [Extract Method](http://refactoring.com/catalog/extractMethod.html "Extract Method") refactoring support on [IntelliJ IDEA](https://www.jetbrains.com/idea/ "IntelliJ IDEA"):
 
-```
-
+```java
     private Stream<integer> integersWithOneOrMoreDigits() {
         return values
                 .stream()
                 .filter(s -> s.matches("\\d+"))
                 .map(Integer::valueOf);
-    }</integer>
+    }
 ```
 
 Then I refactored the the solution to use the new extracted method:
 
-```
-    
+```java
     public List<integer> getSortedIntegers() {
         return integersWithOneOrMoreDigits()
                 .sorted()
                 .collect(Collectors.toList());
-    }</integer>
+    }
 ```
 
-```
-
+```java
     public List<integer> getSortedDescendingIntegers() {
         return integersWithOneOrMoreDigits()
                 .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
-    }</integer>
+    }
 ```
 
 I re-run the tests and they all passed. What do you think about this solution? Do you suggest other ones?
