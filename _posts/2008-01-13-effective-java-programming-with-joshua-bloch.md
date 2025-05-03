@@ -22,5 +22,3 @@ tags:
 Nice video from [Joshua Block](http://en.wikipedia.org/wiki/Joshua_Bloch), Chief Java Architect at Google, talking about his Effective Java™ Programming Language Guide book and also about the consequences of adding new features on the [Java](http://java.sun.com/) language, like the closures’ proposals. He also offers an advice to the programmers, when designing [API’s](http://en.wikipedia.org/wiki/API), classes or methods:
 
 > “When in doubt, leave it out”.
-
-<div style="text-align:center;"></div>
