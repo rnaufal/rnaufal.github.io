@@ -20,5 +20,3 @@ tags:
 ---
 
 Running through the [Java](http://java.sun.com) [TestSuite](http://junit.sourceforge.net/javadoc/junit/framework/TestSuite.html) API I’ve found this funny [javadoc](http://java.sun.com/j2se/javadoc)..
-
-<div style="text-align:center;">![](http://br.geocities.com/rsilvasp/funny_javadoc.jpg)</div>
