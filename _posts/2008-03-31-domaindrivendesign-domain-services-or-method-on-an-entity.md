@@ -27,7 +27,7 @@ There has been too much discussion on the [DDD](http://domaindrivendesign.org/) 
 4. Save the order
 5. Send an email to the customer that the order has been shipped
 
-So, <span style="color:rgb(0,104,28);">nickgieschen</span> suggested the following C# implementations:
+So, `nickgieschen` suggested the following C# implementations:
 
 1\. Everything in the domain:
 
