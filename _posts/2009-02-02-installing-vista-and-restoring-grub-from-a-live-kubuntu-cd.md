@@ -1,7 +1,6 @@
 ---
 id: 68
 title: 'Installing Vista..and restoring Grub from a live Kubuntu cd..'
-date: '2009-02-02T23:06:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2009/02/02/installing-vista-and-restoring-grub-from-a-live-kubuntu-cd/'
 lj_itemid:
     - '77'

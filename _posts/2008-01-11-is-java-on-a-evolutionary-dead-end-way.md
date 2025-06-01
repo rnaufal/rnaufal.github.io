@@ -1,7 +1,6 @@
 ---
 id: 58
 title: 'Is Java on a evolutionary dead end way?'
-date: '2008-01-11T00:31:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2008/01/11/is-java-on-a-evolutionary-dead-end-way/'
 lj_itemid:
     - '66'

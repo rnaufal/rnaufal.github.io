@@ -1,7 +1,6 @@
 ---
 id: 46
 title: 'About use case reuse'
-date: '2007-08-16T23:22:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/08/16/about-use-case-reuse/'
 lj_itemid:
     - '52'

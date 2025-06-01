@@ -1,7 +1,6 @@
 ---
 id: 30
 title: 'FastTrack – Free Tracker plugin for Eclipse'
-date: '2006-10-25T23:58:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/10/25/fasttrack-%e2%80%93-free-tracker-plugin-for-eclipse/'
 lj_itemid:
     - '36'

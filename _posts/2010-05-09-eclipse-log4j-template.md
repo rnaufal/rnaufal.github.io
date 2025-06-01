@@ -1,7 +1,6 @@
 ---
 id: 253
 title: 'Eclipse Log4J template'
-date: '2010-05-09T16:56:23-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=253'
 dsq_thread_id:
     - '102697806'

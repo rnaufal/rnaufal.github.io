@@ -1,7 +1,6 @@
 ---
 id: 8
 title: 'Early abort idiom'
-date: '2006-05-30T16:07:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/05/30/early-abort-idiom/'
 lj_itemid:
     - '3'

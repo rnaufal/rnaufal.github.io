@@ -1,7 +1,6 @@
 ---
 id: 410
 title: 'Minimum difference puzzle in Ruby'
-date: '2013-08-28T18:02:34-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=410'
 dsq_thread_id:
     - '1661474600'

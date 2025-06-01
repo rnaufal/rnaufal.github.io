@@ -1,7 +1,6 @@
 ---
 id: 67
 title: 'Joshua Block on How to Design a Good API &#038; Why it Matters'
-date: '2009-01-10T18:36:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2009/01/10/joshua-block-on-how-to-design-a-good-api-why-it-matters/'
 lj_itemid:
     - '76'

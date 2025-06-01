@@ -1,7 +1,6 @@
 ---
 id: 146
 title: 'Fixing Eclipse buttons for Ubuntu 9.10'
-date: '2009-11-13T15:43:17-02:00'
 guid: 'http://rafaelnaufal.com/blog/?p=146'
 dsq_thread_id:
     - '76181492'

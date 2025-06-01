@@ -1,7 +1,6 @@
 ---
 id: 18
 title: 'Eclipse Callisto is finally released!'
-date: '2006-07-03T21:47:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/07/03/eclipse-callisto-is-finally-released/'
 lj_itemid:
     - '13'

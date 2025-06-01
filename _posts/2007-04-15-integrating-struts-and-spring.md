@@ -1,7 +1,6 @@
 ---
 id: 38
 title: 'Integrating Struts and Spring'
-date: '2007-04-15T19:53:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/04/15/integrating-struts-and-spring/'
 lj_itemid:
     - '44'

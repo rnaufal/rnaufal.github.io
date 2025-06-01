@@ -1,7 +1,6 @@
 ---
 id: 733
 title: 'About JUnit 5 parameterized tests'
-date: '2022-12-18T19:40:48-03:00'
 guid: 'https://rafaelnaufal.com/?p=733'
 categories:
     - java

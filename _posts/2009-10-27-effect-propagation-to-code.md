@@ -1,7 +1,6 @@
 ---
 id: 126
 title: 'Effect propagation to code'
-date: '2009-10-27T23:20:26-02:00'
 guid: 'http://rafaelnaufal.com/blog/?p=126'
 dsq_thread_id:
     - '104138827'

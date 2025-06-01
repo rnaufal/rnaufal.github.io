@@ -1,7 +1,6 @@
 ---
 id: 41
 title: 'Firefox tips and tricks'
-date: '2007-05-22T23:45:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/05/22/firefox-tips-and-tricks/'
 lj_itemid:
     - '47'

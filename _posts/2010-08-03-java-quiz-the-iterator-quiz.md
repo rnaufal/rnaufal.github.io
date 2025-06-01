@@ -1,7 +1,6 @@
 ---
 id: 267
 title: 'Java-Quiz: The Iterator Quiz'
-date: '2010-08-03T18:28:26-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=267'
 dsq_thread_id:
     - '125658658'

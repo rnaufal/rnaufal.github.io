@@ -1,7 +1,6 @@
 ---
 id: 459
 title: 'Converting a Map to a List in Java 8, Groovy and Ruby'
-date: '2016-07-16T16:12:26-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=459'
 dsq_thread_id:
     - '4993151356'

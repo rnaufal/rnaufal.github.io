@@ -1,7 +1,6 @@
 ---
 id: 49
 title: 'Changing Firefox profile location on Win'
-date: '2007-09-16T23:04:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/09/16/changing-firefox-profile-location-on-win/'
 lj_itemid:
     - '55'

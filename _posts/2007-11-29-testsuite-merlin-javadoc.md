@@ -1,7 +1,6 @@
 ---
 id: 55
 title: 'TestSuite Merlin javadoc'
-date: '2007-11-29T21:26:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/11/29/testsuite-merlin-javadoc/'
 lj_itemid:
     - '63'

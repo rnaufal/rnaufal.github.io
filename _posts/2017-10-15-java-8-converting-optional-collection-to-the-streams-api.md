@@ -1,7 +1,6 @@
 ---
 id: 554
 title: 'Java 8: Converting Optional Collection to the Streams API'
-date: '2017-10-15T19:42:09-02:00'
 guid: 'http://rafaelnaufal.com/blog/?p=554'
 dsq_thread_id:
     - '6217518496'

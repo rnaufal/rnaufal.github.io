@@ -1,7 +1,6 @@
 ---
 id: 35
 title: 'Setting up a local SVN on Linux and Windows'
-date: '2007-01-03T23:19:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/01/03/setting-up-a-local-svn-on-linux-and-windows/'
 lj_itemid:
     - '41'

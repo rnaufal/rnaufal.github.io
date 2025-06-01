@@ -1,7 +1,6 @@
 ---
 id: 501
 title: 'Integration tests in a Gradle build'
-date: '2016-07-16T16:25:29-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=501'
 dsq_thread_id:
     - '5125988638'

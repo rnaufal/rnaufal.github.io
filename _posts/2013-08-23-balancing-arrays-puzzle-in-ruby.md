@@ -1,7 +1,6 @@
 ---
 id: 398
 title: 'Balancing arrays puzzle in Ruby'
-date: '2013-08-23T17:37:21-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=398'
 dsq_thread_id:
     - '1635008168'

@@ -1,7 +1,6 @@
 ---
 id: 247
 title: 'Interfaces and Abstract classes'
-date: '2006-08-10T23:47:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/08/10/interfaces-and-abstract-classes/'
 lj_itemid:
     - '20'

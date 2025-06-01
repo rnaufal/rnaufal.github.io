@@ -1,7 +1,6 @@
 ---
 id: 12
 title: 'Microsoft on net nasties'
-date: '2006-06-08T23:06:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/06/08/microsoft-on-net-nasties/'
 lj_itemid:
     - '7'

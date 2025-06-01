@@ -1,7 +1,6 @@
 ---
 id: 44
 title: 'Do you need closures in Java?'
-date: '2007-06-13T16:11:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/06/13/do-you-need-closures-in-java/'
 lj_itemid:
     - '50'

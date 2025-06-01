@@ -1,7 +1,6 @@
 ---
 id: 70
 title: 'Twitter Ecosystem Tools'
-date: '2009-04-17T09:44:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2009/04/17/twitter-ecosystem-tools/'
 lj_itemid:
     - '79'

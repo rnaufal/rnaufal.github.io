@@ -1,7 +1,6 @@
 ---
 id: 37
 title: 'Interview with Grady Booch'
-date: '2007-03-31T20:15:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/03/31/interview-with-grady-booch/'
 lj_itemid:
     - '43'

@@ -1,7 +1,6 @@
 ---
 id: 590
 title: 'About the Kotlin programming language'
-date: '2017-10-14T19:03:47-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=590'
 dsq_thread_id:
     - '6215656980'
