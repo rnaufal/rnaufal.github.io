@@ -1,7 +1,6 @@
 ---
 id: 73
 title: 'Using Scala to update LiveJournal tags &#8211; Part I'
-date: '2009-05-23T13:45:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2009/05/23/using-scala-to-update-livejournal-tags-part-i/'
 lj_itemid:
     - '82'

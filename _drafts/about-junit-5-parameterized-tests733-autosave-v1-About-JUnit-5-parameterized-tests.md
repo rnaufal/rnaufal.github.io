@@ -1,7 +1,6 @@
 ---
 id: 738
 title: 'About JUnit 5 parameterized tests'
-date: '2022-12-18T19:44:25-03:00'
 layout: revision
 guid: 'https://rafaelnaufal.com/?p=738'
 ---

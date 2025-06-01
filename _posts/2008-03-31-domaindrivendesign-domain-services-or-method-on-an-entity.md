@@ -1,7 +1,6 @@
 ---
 id: 62
 title: 'DomainDrivenDesign: Domain Services or Method on an Entity?'
-date: '2008-03-31T00:50:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2008/03/31/domaindrivendesign-domain-services-or-method-on-an-entity/'
 lj_itemid:
     - '70'

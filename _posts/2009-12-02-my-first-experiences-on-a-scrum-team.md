@@ -1,7 +1,6 @@
 ---
 id: 183
 title: 'My first experiences on a Scrum team'
-date: '2009-12-02T18:14:36-02:00'
 guid: 'http://rafaelnaufal.com/blog/?p=183'
 dsq_thread_id:
     - '76181487'

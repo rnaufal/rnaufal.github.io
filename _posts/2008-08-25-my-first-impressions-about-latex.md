@@ -1,7 +1,6 @@
 ---
 id: 65
 title: 'My first impressions about LaTex'
-date: '2008-08-25T00:00:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2008/08/25/my-first-impressions-about-latex/'
 lj_itemid:
     - '74'

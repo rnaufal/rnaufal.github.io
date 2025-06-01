@@ -1,7 +1,6 @@
 ---
 id: 312
 title: 'Singleton in Java with Enum types'
-date: '2010-09-07T16:31:08-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=312'
 dsq_thread_id:
     - '138792904'

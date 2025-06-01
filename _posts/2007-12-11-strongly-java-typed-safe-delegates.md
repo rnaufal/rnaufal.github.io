@@ -1,7 +1,6 @@
 ---
 id: 56
 title: 'Strongly Java typed safe delegates'
-date: '2007-12-11T22:57:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/12/11/strongly-java-typed-safe-delegates/'
 lj_itemid:
     - '64'

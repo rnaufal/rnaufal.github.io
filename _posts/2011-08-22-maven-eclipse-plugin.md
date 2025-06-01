@@ -1,7 +1,6 @@
 ---
 id: 338
 title: 'Maven Eclipse plugin using project dependencies'
-date: '2011-08-22T23:09:43-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=338'
 dsq_thread_id:
     - '393877427'

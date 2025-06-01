@@ -1,7 +1,6 @@
 ---
 id: 53
 title: 'Google announces Android'
-date: '2007-11-06T22:18:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/11/06/google-announces-android/'
 lj_itemid:
     - '59'

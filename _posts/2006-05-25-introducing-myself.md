@@ -1,7 +1,6 @@
 ---
 id: 6
 title: 'Introducing myself'
-date: '2006-05-25T22:34:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/05/25/introducing-myself/'
 lj_itemid:
     - '1'

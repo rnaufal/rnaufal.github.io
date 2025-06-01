@@ -1,7 +1,6 @@
 ---
 id: 13
 title: 'Ant “Could not find the main class. Program will exit”'
-date: '2006-06-13T14:45:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/06/13/ant-%e2%80%9ccould-not-find-the-main-class-program-will-exit%e2%80%9d/'
 lj_itemid:
     - '8'

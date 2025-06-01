@@ -1,7 +1,6 @@
 ---
 id: 368
 title: 'Checkout only one file from Subversion'
-date: '2012-06-20T13:57:40-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=368'
 dsq_thread_id:
     - '749002135'

@@ -1,7 +1,6 @@
 ---
 id: 66
 title: 'Erich Gamma Discusses Jazz, Eclipse, JUnit and Design Patterns'
-date: '2008-10-28T23:33:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2008/10/28/erich-gamma-discusses-jazz-eclipse-junit-and-design-patterns/'
 lj_itemid:
     - '75'

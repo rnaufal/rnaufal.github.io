@@ -1,7 +1,6 @@
 ---
 id: 57
 title: 'JFileContentManager has been released!'
-date: '2008-01-02T22:32:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2008/01/02/jfilecontentmanager-has-been-released/'
 lj_itemid:
     - '65'

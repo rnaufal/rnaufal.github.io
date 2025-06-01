@@ -1,7 +1,6 @@
 ---
 id: 20
 title: 'Software testing purposes'
-date: '2006-07-11T08:27:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/07/11/software-testing-purposes/'
 lj_itemid:
     - '15'

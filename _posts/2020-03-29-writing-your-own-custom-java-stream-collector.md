@@ -1,7 +1,6 @@
 ---
 id: 723
 title: 'Writing your own custom Java stream collector'
-date: '2020-03-29T21:37:17-03:00'
 guid: 'https://rafaelnaufal.com/blog/?p=723'
 categories:
     - collections

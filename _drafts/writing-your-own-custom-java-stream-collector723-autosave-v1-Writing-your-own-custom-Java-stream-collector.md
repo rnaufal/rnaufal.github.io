@@ -1,8 +1,6 @@
 ---
 id: 732
 title: 'Writing your own custom Java stream collector'
-date: '2022-12-17T12:29:02-03:00'
-
 layout: revision
 guid: 'https://rafaelnaufal.com/?p=732'
 ---

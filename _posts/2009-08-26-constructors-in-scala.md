@@ -1,7 +1,6 @@
 ---
 id: 76
 title: 'Constructors in Scala'
-date: '2009-08-26T22:15:40-03:00'
 guid: 'http://rnaufal.wordpress.com/?p=76'
 dsq_thread_id:
     - '102750202'

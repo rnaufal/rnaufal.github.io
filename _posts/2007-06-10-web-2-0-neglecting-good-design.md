@@ -1,7 +1,6 @@
 ---
 id: 43
 title: 'Web 2.0 &#8216;neglecting good design&#8217;'
-date: '2007-06-10T22:48:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/06/10/web-2-0-neglecting-good-design/'
 lj_itemid:
     - '49'

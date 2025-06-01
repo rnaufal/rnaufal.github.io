@@ -1,7 +1,6 @@
 ---
 id: 23
 title: 'Good API design rule'
-date: '2006-07-27T23:24:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/07/27/good-api-design-rule/'
 lj_itemid:
     - '18'

@@ -1,7 +1,6 @@
 ---
 id: 51
 title: 'How Hard Could It Be? Five Easy Ways to Fail'
-date: '2007-10-30T14:55:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/10/30/how-hard-could-it-be-five-easy-ways-to-fail/'
 lj_itemid:
     - '57'

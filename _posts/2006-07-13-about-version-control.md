@@ -1,7 +1,6 @@
 ---
 id: 21
 title: 'About version control'
-date: '2006-07-13T23:38:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/07/13/about-version-control/'
 lj_itemid:
     - '16'

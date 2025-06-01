@@ -1,7 +1,6 @@
 ---
 id: 26
 title: 'Applying the Law of Demeter'
-date: '2006-09-11T00:01:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/09/11/applying-the-law-of-demeter/'
 lj_itemid:
     - '32'

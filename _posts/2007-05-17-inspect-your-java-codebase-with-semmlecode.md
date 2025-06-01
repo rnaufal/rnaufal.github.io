@@ -1,7 +1,6 @@
 ---
 id: 40
 title: 'Inspect your Java codebase with SemmleCode'
-date: '2007-05-17T20:30:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2007/05/17/inspect-your-java-codebase-with-semmlecode/'
 lj_itemid:
     - '46'

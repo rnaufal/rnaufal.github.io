@@ -1,7 +1,6 @@
 ---
 id: 33
 title: 'Indicating the absence of an object'
-date: '2006-11-15T23:41:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2006/11/15/indicating-the-absence-of-an-object/'
 lj_itemid:
     - '39'

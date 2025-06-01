@@ -1,7 +1,6 @@
 ---
 id: 7
 title: 'Sun is gonna open source Java?'
-date: '2006-05-25T22:53:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/05/25/sun-is-gonna-open-source-java/'
 lj_itemid:
     - '2'

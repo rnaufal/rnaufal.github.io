@@ -1,7 +1,6 @@
 ---
 id: 86
 title: 'JDK7 Tackles Java Verbosity'
-date: '2009-09-22T23:45:00-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=86'
 dsq_thread_id:
     - '102911457'

@@ -1,7 +1,6 @@
 ---
 id: 24
 title: 'Single Responsability Principle'
-date: '2006-08-15T23:06:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/08/15/single-responsability-principle/'
 lj_itemid:
     - '21'

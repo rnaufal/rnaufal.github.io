@@ -1,7 +1,6 @@
 ---
 id: 14
 title: 'Aurora 7500 Desktop'
-date: '2006-06-13T14:54:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/06/13/aurora-7500-desktop/'
 lj_itemid:
     - '9'

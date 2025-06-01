@@ -1,7 +1,6 @@
 ---
 id: 25
 title: 'Open sourcing Java: good or bad?'
-date: '2006-08-23T22:41:00-03:00'
 guid: 'http://rnaufal.wordpress.com/2006/08/23/open-sourcing-java-good-or-bad/'
 lj_itemid:
     - '22'

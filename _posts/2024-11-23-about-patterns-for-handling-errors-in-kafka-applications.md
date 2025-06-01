@@ -1,7 +1,6 @@
 ---
 id: 754
 title: 'About patterns for handling errors in Kafka applications'
-date: '2024-11-23T19:52:52-03:00'
 guid: 'https://rafaelnaufal.com/?p=754'
 categories:
     - development

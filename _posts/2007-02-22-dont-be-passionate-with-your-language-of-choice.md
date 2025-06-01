@@ -1,7 +1,6 @@
 ---
 id: 36
 title: 'Don&#8217;t be passionate with your language of choice &#8230;'
-date: '2007-02-22T23:58:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/02/22/dont-be-passionate-with-your-language-of-choice/'
 lj_itemid:
     - '42'

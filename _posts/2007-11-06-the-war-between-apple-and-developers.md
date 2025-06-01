@@ -1,7 +1,6 @@
 ---
 id: 52
 title: 'The war between Apple and developers'
-date: '2007-11-06T20:34:00-02:00'
 guid: 'http://rnaufal.wordpress.com/2007/11/06/the-war-between-apple-and-developers/'
 lj_itemid:
     - '58'

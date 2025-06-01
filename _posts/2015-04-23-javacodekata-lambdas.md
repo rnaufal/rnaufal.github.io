@@ -1,7 +1,6 @@
 ---
 id: 424
 title: 'JavaCodeKata &#8211; Lambdas'
-date: '2015-04-23T18:13:31-03:00'
 guid: 'http://rafaelnaufal.com/blog/?p=424'
 dsq_thread_id:
     - '3707200815'
